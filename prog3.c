@@ -1,13 +1,9 @@
 #include<stdio.h>
 int main()
 {
-   int n=5;
-   for(int i=0; i<n; i++)
-   {
-     for(int j=0;j<(n-i);j++)
-     {
-       printf("*");
-     }
-    printf("\n");
-}
+  int a,b;
+  scanf("%d %d",&a,&b);
+  printf("number 1=%d\nnumber 2=%d\n",a,b); 
+  printf("%d %d",a,b);
+  return 0;
 }

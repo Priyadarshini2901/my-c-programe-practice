@@ -1,13 +1,9 @@
 #include<stdio.h>
 int main()
-{
-  int n n=1,sum=0;
-  printf("enter the number");
-  while(i<=n)
-   { 
-    sum=sum+1;
-    i++;
-    }
-     printf("%d",sum);
-   return 0;
-}
+{ 
+    int a,b;
+  printf("enter the input");
+      scanf("%d %d",&a,&b);
+      printf("%d",a+b);
+  return 0;
+  }

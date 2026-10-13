@@ -1,9 +1,12 @@
 #include<stdio.h>
 int main()
 {
-   int number;
-   scanf("%d",&number);
-   if(number)
-   {
-    printf("It's positive")
-    }}
+   int a,b:
+   scanf("%d %d %d ",a+b,a-b,a*b,a/b,a%b);
+   printf("%d",a+b);
+   printf("%d",a-b);
+   printf("%d",a*b);
+   printf("%d",a/b);
+   printf("%d",a%b);
+   return 0;
+}

@@ -1,13 +1,16 @@
 #include<stdio.h>
 int main()
 {
-   int n=5;
-   for(int i=0; i<n; i++)
-   {
-     for(int j=0; j<i ;j++)
-     {
-       printf("*");
-     }
-    printf("\n");
-}
-}
+  char student[30];
+  \\scanf("%s",student);
+  scanf("%[^\n]", student);
+  int [10];
+  scanf("%d",a);
+  char department[5];
+  scanf("%s", department);
+  printf("%s",student);
+  printf("%d",a);
+  printf("%s",department);
+  return 0;
+  }
+
